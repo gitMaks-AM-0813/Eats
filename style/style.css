@@ -1,0 +1,265 @@
+/* roots */
+
+:root{
+  --white: #fff;
+  --black: #000;
+  --desc-basic: #737373;
+  --desc-light: #F6F6F6;
+  --link-active: #FA4A0C;
+  --desc-basic-darker: #252b42;
+  --copyright-color: #5c5c5c;
+  --subtitle-colorize: #FA4A0C;
+  --btn-background: #FA4A0C;
+}
+:root{
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Poppins", sans-serif;
+  --third-family: "Roboto", sans-serif;
+}
+
+/* main settings */
+
+body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+}
+
+.container{
+  width: 1175px;
+  margin: 0 auto;
+}
+
+a, p, ul, li, h1, h2, h3{
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+/* header */
+.header{
+  padding-top: 50px;
+  padding-bottom: 41px;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+  gap: 455px;
+}
+
+.header-nav-list{
+  display: flex;
+  gap: 104px;
+}
+
+.header-link{
+  color: var(--black);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.header-link:hover{
+  color: var(--link-active);
+}
+
+/* banner */
+
+.banner{
+  padding-top: 80px;
+  padding-bottom: 162px;
+  background-image: url(../images/food-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner-subtitle{
+  color: var(--desc-light);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.banner-title{
+  color: var(--white);
+  font-family: var(--second-family);
+  font-size: 58px;
+  font-weight: 700;
+  width: 1005px;
+  text-align: center;
+  line-height: 138%;
+  margin-bottom: 10px;
+}
+
+.banner-desc{
+  color: var(--desc-light);
+  font-family: var(--font-family);
+  font-size: 24px;
+  margin-bottom: 78px;
+}
+
+.banner-list{
+  display: flex;
+  gap: 67px;
+}
+
+.banner-deliv-link, .banner-menu-link{
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  padding: 16px 66px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.banner-deliv-link{
+  background-color: var(--btn-background);
+}
+
+.banner-menu-link{
+  border: 1px var(--white) solid;
+}
+
+/* app */
+
+.app{
+  margin-top: 56px;
+  margin-bottom: 184px;
+}
+
+.app-main-title{
+  color: var(--black);
+  font-family: var(--second-family);
+  font-size: 44px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.app-list{
+  display: flex;
+  gap: 106px;
+  flex-direction: column;
+}
+
+.app-list-item{
+  display: flex;
+  align-items: center;
+  gap: 287px;
+}
+
+.app-subtitle{
+  color: var(--subtitle-colorize);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 7px;
+}
+
+.app-title{
+  color: var(--desc-basic-darker);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+  margin-bottom: 17px;
+}
+
+.app-desc{
+  color: var(--desc-basic);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 158%;
+}
+
+/* order */
+
+.order{
+  padding-top: 141px;
+  padding-bottom: 139px;
+  background-image: url(../images/shop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.order-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-title{
+  color: var(--white);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.order-desc{
+  color: var(--white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 59px;
+}
+
+.order-list{
+  display: flex;
+  gap: 16px;
+}
+
+.order-playstore-link, .order-appstore-link{
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 18px 31px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.order-playstore-link{
+  background-color: var(--btn-background);
+}
+.order-appstore-link{
+  border: 1px var(--white) solid;
+}
+
+/* footer */
+
+.footer{
+  padding-top: 114px;
+  padding-bottom: 58px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright{
+  color: var(--copyright-color);
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 12px;
+}
